@@ -1,0 +1,11 @@
+{
+  "name": "cbtsidaho-cloudforms_appliance",
+  "version": "0.1.0",
+  "author": "CBTS Idhao",
+  "summary": "Module to manage CloudForms Appliances",
+  "license": "Apache 2.0",
+  "source": "git@git.idaho.cbts.net:/srv/git/repos/puppet-cloudforms-appliance.git",
+  "issues_url": null,
+  "project_page": null,
+  "dependencies": []
+}
