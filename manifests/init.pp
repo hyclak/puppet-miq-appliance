@@ -1,0 +1,3 @@
+class cloudforms_appliance {
+
+}
