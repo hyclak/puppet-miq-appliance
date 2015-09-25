@@ -1,11 +1,11 @@
 {
-  "name": "cbtsidaho-cloudforms_appliance",
+  "name": "hyclak-cloudforms_appliance",
   "version": "0.1.0",
-  "author": "CBTS Idhao",
-  "summary": "Module to manage CloudForms Appliances",
+  "author": "Matthew Hyclak",
+  "summary": "Module to manage ManageIQ Appliances",
   "license": "Apache 2.0",
-  "source": "git@git.idaho.cbts.net:/srv/git/repos/puppet-cloudforms-appliance.git",
-  "issues_url": null,
-  "project_page": null,
+  "source": "https://github.com/hyclak/puppet-miq-appliance.git"
+  "issues_url": "https://github.com/hyclak/puppet-miq-appliance/issues",
+  "project_page": "https://github.com/hyclak/puppet-miq-appliance",
   "dependencies": []
 }
