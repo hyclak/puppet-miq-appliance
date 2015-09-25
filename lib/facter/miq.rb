@@ -17,6 +17,10 @@ Facter.add(:miq) do
     result['version'] = File.open('/var/www/miq/vmdb/VERSION', &:readline).chomp
   end
 
+  # How do I get rails runner in here?
+  # config = VMDB::Config.new("vmdb").config
+  # result['role'] = config[:server][:role]
+
   setcode do
     result
   end
