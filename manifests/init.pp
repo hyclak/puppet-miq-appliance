@@ -1,5 +1,9 @@
-class cloudforms_appliance {
-  file { '/tmp/miq_region':
-    content => 'yes'
-  }
+class miq_appliance (
+  $region   => nil,
+  $database => 'internal',
+  $database_user => 'root',
+  $database_password => 'smartvm',
+  $database_name     => 'vmdb_production',
+  $database_disk     => nil,
+) {
 }
